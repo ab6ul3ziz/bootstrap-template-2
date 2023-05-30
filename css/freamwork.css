@@ -1,0 +1,195 @@
+/* colors root */
+:root {
+    --first-color: #212529;
+    --second-color: #37373f;
+    --red-color-: #ce1212;
+    --h-color: #ec2727;
+}
+
+/* transition */
+:root {
+    --main-transition: 0.3s;
+}
+
+.m-t {
+    transition: var(--main-transition);
+    -webkit-transition: var(--main-transition);
+    -moz-transition: var(--main-transition);
+    -ms-transition: var(--main-transition);
+    -o-transition: var(--main-transition);
+}
+
+/* display flex & grid  */
+.relative {
+    position: relative;
+}
+
+.d-grid {
+    display: grid;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.gap-20 {
+    gap: 20px;
+}
+
+.item-c {
+    align-items: center;
+}
+
+.flex-center {
+    justify-content: center;
+}
+
+.space-bet {
+    justify-content: space-between;
+}
+
+.between-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* colors */
+.c-black {
+    color: black;
+}
+
+.c-white {
+    color: white;
+}
+
+.first-c {
+    color: var(--first-color);
+}
+
+.c-red {
+    color: var(--red-color-) !important;
+}
+
+.bg-red {
+    background-color: var(--red-color-);
+}
+
+.first-color {
+    color: var(--first-color);
+}
+
+.second-color {
+    color: var(--second-color);
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.bg-eee {
+    background-color: #eee;
+}
+
+/* padding & margin  */
+.pl-10 {
+    padding-left: 10px;
+}
+
+.pb-60 {
+    padding-bottom: 60px;
+}
+
+.pb-80 {
+    padding-bottom: 60px;
+}
+
+.pt-80 {
+    padding-top: 60px;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.ml-25 {
+    margin-left: 25px;
+}
+
+.mt-0 {
+    margin-top: 0;
+}
+
+/* Fonts  */
+.line-h {
+    line-height: 1.5;
+}
+
+.txt-c {
+    text-align: center;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+/* meadia  */
+@media (max-width: 991px) {
+    .txt-c-ipad {
+        text-align: center;
+    }
+}
+
+@media (max-width: 991px) {
+    .f-center-ipad {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 991px) {
+    .ipad-column-reverse {
+        flex-direction: column-reverse;
+    }
+}
+
+@media (max-width: 991px) {
+    .ipad-column {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 767px) {
+    .min-phone-between-flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
